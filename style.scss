@@ -17,14 +17,17 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
    vertical-align: baseline;
+   font-family: 'Roboto', sans-serif;
 }
 
 @font-face
 {
-   font-family: HarryP;
-   src: url(./fonts/HARRYP__.TTF) format("truetype");
-   font-family: Lumos;
-   src: url(./LUMOS.TTF) format("truetype");
+   font-family: "HarryP";
+   src: url("/fonts/HARRYP__.TTF");
+}
+@font-face{
+    font-family: "Lumos";
+    src: url("/fonts/LUMOS.TTF");
 }
 
 body{
@@ -41,17 +44,18 @@ body{
             h2{
                 font-size: 40px;
                 float: left;
-                font-family: HarryP, serif;
+                font-family: "HarryP";
                 float: left;
             }
             nav{
                 float: right;
-                font-family: Lumos, serif;
+                
                 ul{
                     
                     li{
                         display: inline;
-                        a{                    
+                        a{             
+                            font-family: "Lumos", serif;
                             text-decoration: none; 
                             color: #C7AD19;
                         }

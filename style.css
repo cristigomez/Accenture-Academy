@@ -17,13 +17,16 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: "Roboto", sans-serif;
 }
 
 @font-face {
-  font-family: HarryP;
-  src: url(./fonts/HARRYP__.TTF) format("truetype");
-  font-family: Lumos;
-  src: url(./LUMOS.TTF) format("truetype");
+  font-family: "HarryP";
+  src: url("/fonts/HARRYP__.TTF");
+}
+@font-face {
+  font-family: "Lumos";
+  src: url("/fonts/LUMOS.TTF");
 }
 body header {
   background-color: #CA2110;
@@ -40,23 +43,27 @@ body header section {
 body header section h2 {
   font-size: 40px;
   float: left;
-  font-family: HarryP, serif;
+  font-family: "HarryP";
   float: left;
 }
 body header section nav {
   float: right;
-  font-family: Lumos, serif;
 }
 body header section nav ul li {
   display: inline;
 }
 body header section nav ul li a {
+  font-family: "Lumos", serif;
   text-decoration: none;
   color: #C7AD19;
 }
 body .container {
   width: 80%;
   margin: 0 auto;
+}
+body .container .restricciones {
+  color: #CA2110;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
